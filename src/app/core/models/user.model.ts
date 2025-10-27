@@ -7,14 +7,14 @@ export interface User{
     username: string;
     email: string;
     password?: string;
-    fullname: string;
+    fullName: string;
     bio?: string;
-    avatar: string;
+    avatar?: string;
     converPhoto?: string;
     followers: string[];
     following: string[];
     createdAt: Date;
-    updatedAt: Date;
+    updatedAt?: Date;
 }
 
 /*
@@ -25,7 +25,7 @@ export interface UserRegistration{
     username: string;
     email: string;
     password?: string;
-    fullname: string;
+    fullName: string;
 }
 
 export interface UserUpdate{
